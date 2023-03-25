@@ -78,4 +78,189 @@
 </ol>
 
 <h2 style="text-align: center">Вывод</h2>
+<p>
 Я исппользуя JavaScript решил поставленные задачи. Цели и задачи выполнены. 
+<!DOCTYPE html>
+<html> 
+<head> 
+    <link rel="stylesheet" href="index.css">
+<title>DZAGOLOVKI</title>
+</head>
+<style>
+body {
+        background-image: url('qwe.jpg'); 
+        background-repeat: no-repeat;
+		text-align:center;
+      }
+</style>
+   <div class="su" ><img src="qw.gif"  width="180" height="110"></div>
+   <div class="sus" ><img src="qw1.gif"  width="200" height="110"></div>
+   <div class="menu" >
+ <ul >
+<a href="#"> </a>
+<a href="#"> </a>
+</ul>
+
+</div>
+<hr>
+ <div class="heading">
+ <!--1-->
+<script> 
+var str = 'hdfgv';
+document.write(str[0]); 
+document.write(str[1]); 
+document.write(str[4]); 
+</script><br>
+ <!--2-->
+<script> 
+alert(60 * 60);
+</script>
+ <!--3-->
+<script> 
+  var num = 1;
+num += 12;
+num -= 14;
+num *= 5;
+num /= 7;
+num++;
+num--;
+alert(num);
+  </script>
+   <!--4-->
+  <script> 
+  var num  = 3;
+  alert(num);
+    </script>
+    
+     <!--5-->
+    <script> 
+      var a  = 10;
+      var b  = 2;
+      alert(a+b);
+      alert(a-b);
+      alert(a/b);
+      alert(a*b);
+        </script>
+  <!--6-->
+  <script> 
+    var c  = 15;
+    var d  = 2;
+    result = c + d;
+    alert(result);
+    </script>
+      <!--7-->
+  <script> 
+   var a  = 10;
+    var b  = 2;
+    var c  = 5;
+   alert(a+b+c);
+    </script>  
+    <!--8-->
+  <script> 
+    var a  = 17;
+    var b  = 10;
+    c=a-b;
+    var d=7;
+    result=c+d;
+    alert(result);
+    </script>
+      <!--9-->
+  <script> 
+    alert(60*60);
+    alert(60*60*24);
+    alert( 60*60*24*30);
+    </script>
+          <!--10-->
+  <script> 
+    var has  = 16;
+    var min  = 25;
+    var sec  = 15;
+    document.write(has +':'+ min +':'+ sec);
+    </script>
+        <!--11-->
+  <br><script> 
+    var a = 16;
+    document.write(a*a);
+    </script>
+       <!--12-->
+        <!--reduce перебирает значения массива-->
+  <br><script> 
+ document.write(  [1, 2, 3, 4, 5, 6, 7,8,9,10].filter(n => n % 2 == 0).reduce( (sum, n) => sum + n**0.5, 0 ));
+    </script>
+       <!--13-->
+     <br><script> 
+      var a = 1.15;
+      var b = 2.30;
+      c=a+b;
+      document.write(c);
+      </script>
+          <!--14-->
+     <script> 
+      let X = 5;
+      alert(X++);
+      alert(X);
+     </script>
+ <!--15-->
+ <br><script> 
+   document.write([ ] + false - null + true);
+ </script>
+ <!--16-->
+ <script> 
+ let y=1;
+ let x=y=2;
+ console.log(x);
+  </script>
+   <!--17-->
+ <br><script> 
+document.write([ ] + 1 + 2);
+</script>
+   <!--18-->
+   <br><script> 
+   let a6=5%3;
+ let a7=3%5;
+ let a8=5+'3';
+ let a9='5'-3;
+ let a10=75+'кг';
+    document.write(a6,'  ',a7,'  ',a8,'  ',a9,'  ',a10);
+    </script>
+<!--19-->
+<br><script> 
+  let height =23;
+let width=10;
+s = height*width;
+   document.write(s);
+   </script>
+  <!--20-->
+  <br><script> 
+    let heightC =10;
+  let dC=4;
+  v = height*Math.PI*(2**2);
+     document.write(v);
+     </script>
+  <!--21-->
+  <br><script> 
+    let S =2000000;
+  let P=0.1;
+  let years=5;
+  perepl = S*P*years;
+     document.write(perepl);
+     </script>
+       <!--22-->
+  <br><script> 
+    let str ="Привет";
+  let num=123;
+  let flag=true;
+  let txt="true";
+     console.log(typeof(str,num,flag,txt));
+     </script>
+           <!--23-->
+  <br><script> 
+    let qq =213214;
+document.write(-qq);
+     </script>
+
+</div>
+</body>
+
+</html> 
+</p>
