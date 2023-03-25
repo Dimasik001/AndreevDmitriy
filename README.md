@@ -78,32 +78,10 @@
 </ol>
 
 <h2 style="text-align: center">Вывод</h2>
-<p>
-Я исппользуя JavaScript решил поставленные задачи. Цели и задачи выполнены. 
-<!DOCTYPE html>
-<html> 
-<head> 
-    <link rel="stylesheet" href="index.css">
-<title>DZAGOLOVKI</title>
-</head>
-<style>
-body {
-        background-image: url('qwe.jpg'); 
-        background-repeat: no-repeat;
-		text-align:center;
-      }
-</style>
-   <div class="su" ><img src="qw.gif"  width="180" height="110"></div>
-   <div class="sus" ><img src="qw1.gif"  width="200" height="110"></div>
-   <div class="menu" >
- <ul >
-<a href="#"> </a>
-<a href="#"> </a>
-</ul>
 
-</div>
-<hr>
- <div class="heading">
+Я исппользуя JavaScript решил поставленные задачи. Цели и задачи выполнены. 
+
+<p>
  <!--1-->
 <script> 
 var str = 'hdfgv';
