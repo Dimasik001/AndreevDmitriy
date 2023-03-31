@@ -135,9 +135,9 @@ body {
 	<a href="one.html">1 страница </a>
 	
     </div>
-	<div class="www" id="test">  
-	<a href="two.html">2 страница </a>
-	<a href="three.html">3 страница </a>
+<div class="www" id="test">  
+<a href="two.html">2 страница </a>
+<a href="three.html">3 страница </a>
    </div>
    
    <div id="test">  
