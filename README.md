@@ -132,23 +132,20 @@ body {
    <h2>ЗАГОЛОВОК3</h2>
    <h2>ЗАГОЛОВОК4</h2>
    <a href="index.html" >Главная </a>
-	<a href="one.html">1 страница </a>
-	
-    </div>
+	<a href="one.html">1 страница </a>	
+</div>
 <div class="www" id="test">  
 <a href="two.html">2 страница </a>
 <a href="three.html">3 страница </a>
-   </div>
-   
-   <div id="test">  
-	<a href="for.html" class="wwww">4 страница </a>
-	<a href="five.html">5 страница </a>
+ </div>
+ <div id="test">  
+<a href="for.html" class="wwww">4 страница </a>
+<a href="five.html">5 страница </a>
    </div>
    <div class="eee" >  
    <a href="six.html" class="www">6 страница </a>
-      </div>
+ </div>
 </body>
-
 </html> 
 </p>
 
