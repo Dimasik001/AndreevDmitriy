@@ -17,74 +17,118 @@
 <html> 
 <head> 
     <link rel="stylesheet" href="index.css">
-<title>DZAGOLOVKI</title>
+<title>Главная</title>
 </head>
-<style>
-body {
-        background-image: url('qwe.jpg'); 
-        background-repeat: no-repeat;
-		text-align:center;
-      }
-</style>
-   <div class="su" ><img src="qw.gif"  width="180" height="110"></div>
-   <div class="sus" ><img src="qw1.gif"  width="200" height="110"></div>
-   <div class="menu" >
- <ul >
- <a href="index.html">Главная </a>
-<a href="one.html">1 страница </a>
-<a href="two.html">2 страница </a>
-<a href="three.html">3 страница </a>
-<a href="for.html">4 страница </a>
-<a href="five.html">5 страница </a>
-<a href="six.html">6 страница </a>
-</ul>
+<body>
+	<header>
+		<div class="glava">
+			<div class="logo">
+				<a href="index.html">Elysa4t</a>
+			</div>
+			<div class="navigation">
+				<ul class="menu">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">Archives</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
 
-</div>
-<hr>
- <div class="heading" id="testqq">
- <p>АБЗАЦ</p>
-  <p>АБЗАЦ</p>
-   <p>АБЗАЦ</p>
- <h2>заголовок</h2>
-   <h2>заголовок</h2>
-    <h2>заголовок</h2>
-</div>
 
-<div class="bbb" id="testt">  
-<p>АБЗАЦ1</p>
-<p>АБЗАЦ2</p>
- <h2>ЗАГОЛОВОК</h2>
-<h2>ЗАГОЛОВОК</h2>
-    </div>
-<div class="xxx" id="tests">  
-<p>АБЗАЦ3</p>
-<p>АБЗАЦ4</p>
- <h2>ЗАГОЛОВОК1</h2>
-   <h2>ЗАГОЛОВОК2</h2>
-    </div>
-<div class="fff" id="testq">  
-<p>АБЗАЦ5</p>
-<p>АБЗАЦ6</p>
-   <h2>ЗАГОЛОВОК3</h2>
-   <h2>ЗАГОЛОВОК4</h2>
-   <a href="index.html" >Главная </a>
-	<a href="one.html">1 страница </a>	
-</div>
-<div class="www" id="test">  
-<a href="two.html">2 страница </a>
-<a href="three.html">3 страница </a>
- </div>
- <div id="test">  
-<a href="for.html" class="wwww">4 страница </a>
-<a href="five.html">5 страница </a>
+<div class="photo">
+		
+   <div class="banner-block container">
+      <div class="image">
+         <img src="banner-image.jpg">
+      </div>
+      <div class="text">
+         <h2>Magna sed phasellus consequat lorem ipsum dolor</h2>
+      </div>
    </div>
-   <div class="eee" >  
-   <a href="six.html" class="www">6 страница </a>
- </div>
+   
+</div>
+
+<div class="centr">
+   <div class="containers">
+      <section>
+         <div class="info">
+            <p>Posted by  Someone
+            on April 14, 2012</p>
+         </div>
+         <h2 id="zz">Lorem ipsum sed veroeros amet</h2>
+         <div class="image2">
+            <img src="pics01.jpg">
+         </div>
+         <div class="text2">
+            <p>Nam vestibulum hendrerit orci, sed pharetra elit elementum in. Donec in eros sed odio varius tempus. Vestibulum quis quam et velit rutrum ornare nec a massa. Curabitur malesuada ullamcorper nunc in suscipit. Donec semper venenatis dui sed facilisis. Morbi congue facilisis ante in feugiat. Mauris consectetur magna eu enim sagittis et bibendum lacus imperdiet. Maecenas semper massa ac odio ornare sodales. Nunc rhoncus vulputate nisi sed malesuada. Fusce ac mauris dui, id luctus ligula. Integer hendrerit.</p>
+         </div>
+         <div class="comments2">
+            <p>Posted in  News, Design,Other</p>
+            <p>235 Comments</p>
+         </div>
+      </section>
+      <aside>
+         <div class="sprava"></div>
+            <div class="info2">
+               <p>About Elysa4t</p>
+            </div>
+            <div class="textsp">
+               <p>Mauris consectetur magna eu enim sagittis et bibendum lacus imperdiet. Maecenas semper massa amet et odio mauris dui, id luctus amet ligula.
+               </p>
+            </div>
+            <div class="info2"><p>Recent Post</p></div>
+            <div class="textsp">
+               <p>Mauris consectetur magna eu enim sagittis et bibendum lacus imperdiet. Maecenas semper massa amet et odio mauris dui, id luctus amet ligula.
+               </p>
+            </div>
+            <div class="info2"><p>Something Else</p></div>
+            <div class="textsp">
+               <p>Mauris consectetur magna eu enim sagittis et bibendum lacus imperdiet. Maecenas semper massa amet et odio mauris dui, id luctus amet ligula.</p>
+            </div>
+
+       
+      </aside>
+   </div>
+</div>
+
+
+
+<div class="blocki">
+	
+   <div class="container">
+      
+      <div class="stolb">
+         <h3>Just another widget</h3>
+         <p>Mauris consectetur magna tempus enim sagittis et bibendum lacus et imperdiet. Maecenas semper et massa amet et odio mauris dui, id luctus amet ligula.</p>
+      </div>
+      <div class="stolb">
+         <h3>Just another widget</h3>
+         <p>Mauris consectetur magna tempus enim sagittis et bibendum lacus et imperdiet. Maecenas semper et massa amet et odio mauris dui, id luctus amet ligula.</p>
+      </div>
+      <div class="stolb">
+         <h3>Just another widget</h3>
+         <p>Mauris consectetur magna tempus enim sagittis et bibendum lacus et imperdiet. Maecenas semper et massa amet et odio mauris dui, id luctus amet ligula.</p>
+      </div>
+      
+   </div>
+</div>
+
+<footer>
+   <div class="footer-info container">
+      <p> Андреев Дмитрий</p>
+   </div> 
+</footer>
+
+
 </body>
+
 </html> 
 </p>
 
 <h2 style="text-align: center">Вывод</h2>
+	CSS используется создателями веб-страниц для задания цветов, шрифтов, стилей, расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц. Основной целью разработки CSS является ограждение и отделение описания логической структуры веб-страницы (которое производится с помощью HTML или других языков разметки) от описания внешнего вида этой веб-страницы 
 Основной целью разработки CSS является ограждение и отделение описания логической структуры веб-страницы
 Я исппользуя CSS решил поставленные задачи. Цели и задачи выполнены. 
